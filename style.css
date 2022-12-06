@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+
+div{
+    border: solid 1px blue;
+}
+
+@media  (min-width: 576px) {
+    body{
+        background-color: #002313;
+    }
+}
+@media  (min-width: 768px) {
+    body{
+        background-color: #102353;
+    }
+}
+
+@media  (min-width: 992px) {
+    body{
+        background-color: #105353;
+    }
+}
+
+@media  (min-width: 1200px) {
+    body{
+        background-color: #109353;
+    }
+}
+
+@media  (min-width: 1400px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* @media (700px <= width <= 900px) {
+    body{
+        background-color: black;
+    }
+} */
